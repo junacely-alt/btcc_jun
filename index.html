@@ -3,71 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BTCC Duplicate</title>
+    <title>BTCC Church | Portfolio & About</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
     <div class="app-container">
-        <!-- Header / Profile Section -->
+        <!-- Profile Header -->
         <header>
             <div class="profile-frame">
-                <!-- INSERT_PROFILE_IMAGE_URL_HERE -->
-                <img src="https://via.placeholder.com/150" alt="Profile" class="profile-img">
+                <!-- INPUT_LOGO_HERE -->
+                <img src="https://via.placeholder.com/150" alt="Church Logo" class="profile-img">
             </div>
-            <h1>BTCC Official</h1>
-            <p>Cryptocurrency Exchange & Trading</p>
+            <h1>BTCC CHURCH</h1>
+            <p>Spreading Faith, Hope, and Love</p>
         </header>
 
         <!-- Navigation Tabs -->
         <nav class="tab-nav">
             <button class="tab-link active" onclick="openTab(event, 'links')">Links</button>
             <button class="tab-link" onclick="openTab(event, 'about')">About</button>
+            <button class="tab-link" onclick="openTab(event, 'portfolio')">Portfolio</button>
         </nav>
 
-        <!-- Tab 1: Links -->
+        <!-- Tab 1: Direct Links -->
         <section id="links" class="tab-content active">
             <div class="link-list">
-                <!-- Duplicate these for more buttons -->
-                <a href="INSERT_URL_1" class="card">
-                    <i class="fa-solid fa-globe"></i>
-                    <span>Official Website</span>
+                <a href="INSERT_LINK_1" class="card">
+                    <i class="fa-solid fa-play"></i>
+                    <span>Watch Live Stream</span>
                 </a>
-                <a href="INSERT_URL_2" class="card">
-                    <i class="fa-brands fa-telegram"></i>
-                    <span>Join Telegram</span>
+                <a href="INSERT_LINK_2" class="card">
+                    <i class="fa-solid fa-hand-holding-heart"></i>
+                    <span>Online Tithes & Offerings</span>
                 </a>
-                <a href="INSERT_URL_3" class="card">
-                    <i class="fa-brands fa-twitter"></i>
-                    <span>Twitter / X</span>
+                <a href="INSERT_LINK_3" class="card">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <span>Upcoming Events</span>
                 </a>
             </div>
         </section>
 
-        <!-- Tab 2: About / Interactive Content -->
+        <!-- Tab 2: Full About Descriptions -->
         <section id="about" class="tab-content">
-            <div class="about-container">
-                <div class="about-card">
-                    <h3>About Us</h3>
-                    <!-- INSERT_DESCRIPTION_HERE -->
-                    <p>Enter your business description or personal bio here. This section is designed for longer text content.</p>
-                </div>
+            <div class="text-block">
+                <h3>Our Story</h3>
+                <p>Welcome to BTCC Church. We are a community of believers dedicated to the teachings of Jesus Christ. Our church serves as a sanctuary for those seeking spiritual growth, fellowship, and a deeper connection with God.</p>
                 
-                <div class="gallery">
-                    <!-- INSERT_GALLERY_IMAGE_URL_HERE -->
-                    <img src="https://via.placeholder.com/300x150" alt="Work 1">
+                <h3>Vision</h3>
+                <p>To be a light in the community, transforming lives through the power of the Gospel and raising a generation that walks in faith and integrity.</p>
+                
+                <h3>Mission</h3>
+                <p>Our mission is to reach the lost, disciple the found, and send the empowered into the world to make a lasting impact for the Kingdom of God.</p>
+            </div>
+        </section>
+
+        <!-- Tab 3: Portfolio / Gallery -->
+        <section id="portfolio" class="tab-content">
+            <div class="portfolio-grid">
+                <!-- ITEM 1 -->
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Youth Ministry">
+                    <div class="item-desc">
+                        <h4>Youth Ministry</h4>
+                        <p>Empowering the next generation through worship and study.</p>
+                    </div>
+                </div>
+                <!-- ITEM 2 -->
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Outreach Program">
+                    <div class="item-desc">
+                        <h4>Community Outreach</h4>
+                        <p>Providing food and support to our local families in need.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Social Footer -->
         <footer>
             <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-discord"></i></a>
-                <a href="#"><i class="fa-envelope"></i></a>
             </div>
         </footer>
     </div>
