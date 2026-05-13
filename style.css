@@ -142,3 +142,71 @@ input, textarea { background: #0f172a; border: 1px solid #334155; padding: 12px;
     border-top: 1px solid #334155;
     padding-top: 20px;
 }
+
+/* Pastor Grid Styling */
+.pastor-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 columns */
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.person-card {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.person-card img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.person-card h4 {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: var(--accent);
+}
+
+/* Ministry Link Buttons */
+.ministry-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.ministry-item {
+    background: var(--card);
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: 0.3s;
+    text-align: center;
+    font-weight: 600;
+}
+
+.ministry-item:hover {
+    border-color: var(--accent);
+    background: rgba(56, 189, 248, 0.1);
+}
+
+/* Team Page specific */
+.back-link {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.team-desc {
+    margin-top: 20px;
+    text-align: left;
+}
