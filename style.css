@@ -75,3 +75,70 @@ header { text-align: center; }
 .contact-form { display: flex; flex-direction: column; gap: 10px; }
 input, textarea { background: #0f172a; border: 1px solid #334155; padding: 12px; color: white; border-radius: 8px; }
 .submit-btn, .give-btn { background: var(--accent); color: #0f172a; border: none; padding: 15px; border-radius: 8px; font-weight: bold; cursor: pointer; text-decoration: none; display: block; text-align: center; }
+
+/* Add these to your existing style.css */
+
+.icon-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.payment-methods {
+    margin: 25px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.method-card {
+    background: rgba(255, 255, 255, 0.03);
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px dashed #334155;
+}
+
+.method-card h4 {
+    margin: 0 0 5px 0;
+    color: var(--accent);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 0.85rem;
+    color: #94a3b8;
+}
+
+.action-btn {
+    background: var(--accent);
+    color: #0f172a;
+    border: none;
+    padding: 16px;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.action-btn:hover {
+    filter: brightness(1.1);
+    transform: translateY(-2px);
+}
+
+.social-footer {
+    margin-top: 30px;
+    text-align: center;
+    border-top: 1px solid #334155;
+    padding-top: 20px;
+}
